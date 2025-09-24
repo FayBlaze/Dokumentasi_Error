@@ -10,7 +10,9 @@ kalau `python --version` python tidak terbaca lakukan ini:
 Enviroment Variables\ Enviroment Variables > user variables... > `C:\Users\ASUS\AppData\Local\Programs\Python\Python313\`, Pastikan ini paling atas  
   
 Selanjutnya di VScode:  
-Ctrl + Shift + P > Python: Select Interpreter > pilih direktori ini `C:\Users\ASUS\AppData\Local\Programs\Python\Python313\`\
+Ctrl + Shift + P > Python: Select Interpreter > pilih direktori ini `C:\Users\ASUS\AppData\Local\Programs\Python\Python313\`
+
+
 
 ### Install jupyter
 ```
