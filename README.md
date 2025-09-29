@@ -11,9 +11,7 @@ Enviroment Variables\ Enviroment Variables > user variables... > `C:\Users\ASUS\
   
 Selanjutnya di VScode:  
 Ctrl + Shift + P > Python: Select Interpreter > pilih direktori ini `C:\Users\ASUS\AppData\Local\Programs\Python\Python313\`
-
-
-
+  
 ### Install jupyter
 ```
 "C:\Users\ASUS\AppData\Local\Programs\Python\Python313\python.exe" -m pip install --upgrade pip
@@ -59,3 +57,13 @@ settings.json
     "workbench.iconTheme": "vs-seti"
 }
 ```
+## Install Git
+Download git > Install > Tambahkan Akun ke VS Code >  
+ketik ini ke terminal
+```
+git config --global user.name "Jack-minecrafters"
+git config --global email.name "240705107@studemt.ar-raniry.ac.id"
+```
+or pencet pencet aja, ntr cek `git status` klo ada  
+**on branch main** aman tuh, kalau tidaaakkk..........
+##### Important Messages jangan bikin file [xxxxx] kalau ga mau ada masalah
