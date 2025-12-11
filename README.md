@@ -66,4 +66,33 @@ git config --global email.name "240705107@studemt.ar-raniry.ac.id"
 ```
 or pencet pencet aja, ntr cek `git status` klo ada  
 **on branch main** aman tuh, kalau tidaaakkk..........
-##### Important Messages jangan bikin file [xxxxx] kalau ga mau ada masalah
+##### Important Messages jangan bikin file [xxxxx] kalau ga mau ada masalah  
+
+## Install conda sebagai virtual enviroment
+Download miniconda(biar hemat tempat) > pas instalasi pilih yg merge ke python > done  
+seperti biasa, cek dulu dari #ananconda prompt# ```conda --version```
+```
+conda create --name <namaenv> python=3.12.7
+#pythonnya opsional
+```
+cara aktifkannya pakai:
+```
+conda activate <namaenv>
+#ganti ke deactivate klo mau deaktivasi, gaperlu tulis namaenv lagi
+```
+atau pakai ini biar simpel:
+```
+mlflow run https://github.com/<username>/mlflow-example.git -P alpha=0.5
+```
+berikut refereensinya:  
+| Fitur                           | `conda create`          | `mlflow run`                                       |
+| ------------------------------- | ----------------------- | -------------------------------------------------- |
+| Tujuan                          | Buat environment manual | Jalankan project MLflow dalam environment otomatis |
+| Siapa yang kontrol environment? | Kamu                    | MLflow                                             |
+| Meng-install paket              | Manual                  | Otomatis dari `MLproject`                          |
+| Nama environment                | Kamu tentukan           | MLflow generate acak                               |
+| Risiko error dependency         | Rendah (kamu kontrol)   | Tinggi (terutama di Windows)                       |
+| Cocok untuk                     | Setup kerja stabil      | Eksekusi project reproducible                      |
+
+
+
